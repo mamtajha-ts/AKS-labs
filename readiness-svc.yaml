@@ -3,6 +3,7 @@ apiVersion: v1
 metadata:
   name: readiness-svc
 spec:
+  type: LoadBalancer
   selector:
     app: rns
   ports:
